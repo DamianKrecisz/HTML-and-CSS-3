@@ -1,0 +1,8 @@
+zadanie 34
+
+1. start 4.04
+2. html/css/js (w tym jquery), bez frameworków, u¿ycie flexboxa mile widziane.
+3. rwd obowiazkowo 
+
+
+
