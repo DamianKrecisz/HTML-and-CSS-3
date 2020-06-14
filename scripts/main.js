@@ -9,6 +9,5 @@ hamburger.addEventListener('click', () => {
     } else {
         toogled = false;
         logo.style.display = "flex";
-
     }
 })

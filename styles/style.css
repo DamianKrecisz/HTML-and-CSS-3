@@ -2,6 +2,7 @@
   font-family: 'Raleway', sans-serif !important;
   text-decoration: none;
   color: black;
+  scroll-behavior: smooth;
 }
 
 .nav {
@@ -180,24 +181,34 @@
           flex-direction: column;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  height: 70vh;
+  height: 87vh;
+  padding: 10% 0%;
 }
 
 .main-descriptionText__top {
   color: white;
-  font-size: 4vw;
+  font-size: 3vw;
   font-weight: 800;
   text-align: center;
 }
 
 .main-descriptionText__bottom {
   color: white;
-  font-size: 4vw;
+  font-size: 3vw;
   text-align: center;
 }
 
 .main-descriptionText__icon {
   margin: 0 auto;
+}
+
+@media (max-width: 992px) {
+  .main-descriptionText__top {
+    font-size: 5vw;
+  }
+  .main-descriptionText__bottom {
+    font-size: 5vw;
+  }
 }
 
 .main-search {
@@ -209,7 +220,7 @@
       -ms-flex-direction: row;
           flex-direction: row;
   border: 30px solid rgba(255, 255, 255, 0.5);
-  margin: 0px 10vw;
+  margin: 0px 30vw;
 }
 
 .main-search input {
@@ -275,6 +286,18 @@
     width: 100%;
     border-top: 1px solid white;
     border-right: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .main-search {
+    margin: 0;
+  }
+}
+
+@media (max-width: 992px) {
+  .main {
+    height: 90vh;
   }
 }
 
@@ -393,7 +416,7 @@
 }
 
 .section2-description {
-  margin-top: 5vh;
+  margin-top: 10vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -425,10 +448,10 @@
       -ms-flex-direction: row;
           flex-direction: row;
   text-align: center;
-  margin: 0 10vw;
+  margin: 0 8vw;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-bottom: 5vh;
+  margin-bottom: 10vh;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -493,7 +516,7 @@
   margin-top: 1rem;
   line-height: 30px;
   max-width: 70%;
-  word-spacing: 0.3rem;
+  line-height: 25px !important;
 }
 
 .section3-client__logos {
@@ -671,6 +694,15 @@
   padding-top: 20vh;
 }
 
+.section5-navigation a {
+  color: white;
+}
+
+.section5-navigation a:hover {
+  font-weight: 800;
+  color: #ffd51c;
+}
+
 .section5-navigation span {
   color: white;
   font-size: 18px;
@@ -720,6 +752,7 @@
       -ms-flex-align: center;
           align-items: center;
   padding-top: 10vh;
+  margin-bottom: 2vw;
 }
 
 .section5-footer span {

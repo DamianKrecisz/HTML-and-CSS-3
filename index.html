@@ -22,24 +22,24 @@
 
 <body>
 
-    <nav class="nav">
+    <nav class="nav" id="nav">
         <div class="hamburger">
             <input id="toggle" type="checkbox">
             <label class="toggle-container" for="toggle">
                 <span class="button button-toggle"></span>
             </label>
             <nav class="navv">
-                <a class="navv-item" href="">Home</a>
-                <a class="navv-item" href="">About</a>
-                <a class="navv-item" href="">Pricing</a>
-                <a class="navv-item" href="">Domain</a>
-                <a class="navv-item" href="">Hosting</a>
+                <a class="navv-item" href="#home">Home</a>
+                <a class="navv-item" href="#services">Services</a>
+                <a class="navv-item" href="#features">Features</a>
+                <a class="navv-item" href="#clients">Clients</a>
+                <a class="navv-item" href="#pricing">Pricing</a>
 
             </nav>
         </div>
         <div class="nav-left">
             <div class="nav-left__logo" id="logo">
-                <img src="images/logo.png" alt="">
+                <img src="images/logo.png" alt="logo">
             </div>
             <div class="nav-left__menu">
                 <ul>
@@ -81,27 +81,27 @@
 
     </nav>
 
-    <main class="main">
+    <header class="main" id="home">
         <span class="main-descriptionText__top">Just a Proffesional Web Hosting Services</span>
-        <span class="main-descriptionText__bottom">modern - fast - reliable</span class="main-desciptionText__">
+        <span class="main-descriptionText__bottom">modern - fast - reliable</span>
         <div class="main-descriptionText__icon">
-            <img class="main-descriptionText__icon" src="images/icon.png" alt="">
+            <img class="main-descriptionText__icon" src="images/icon.png" alt="icon">
         </div>
         <div class="main-search">
             <input type="text" placeholder="Your Domain Name ...">
-            <select name="" id="">
+            <select name="domens" >
                 <option>.pl</option>
                 <option>.com</option>
                 <option>.eu</option>
             </select>
             <button>Check Availability</button>
         </div>
-    </main>
+    </header>
 
-    <section class="section1">
+    <section class="section1" id="services">
         <div class="section1-left">
             <div class="section1__icon">
-                <img src="images/section1icon1.png" alt="">
+                <img src="images/section1icon1.png" alt="icon">
             </div>
             <div class="section1__title">#1 Webhost Services</div>
             <div class="section1__description">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
@@ -114,7 +114,7 @@
         </div>
         <div class="section1-right">
             <div class="section1__icon">
-                <img src="images/section1icon2.png" alt="">
+                <img src="images/section1icon2.png" alt="icon">
             </div>
             <div class="section1__title">#1 Domain Services</div>
             <div class="section1__description">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
@@ -126,7 +126,7 @@
         </div>
     </section>
 
-    <section class="section2">
+    <section class="section2" id="features">
         <div class="section2-description">
             <div class="section2-description__top">Our Features</div>
             <div class="section2-description__bottom">Our Best Features</div>
@@ -135,10 +135,10 @@
         <div class="section2-features">
             <div class="section2-single">
                 <div class="section2-single__img">
-                    <img src="./images/section3icon1.png" alt="">
+                    <img src="./images/section3icon1.png" alt="icon">
                 </div>
                 <div class="section2-single__beam">
-                    <img src="./images/beam.png" alt="">
+                    <img src="./images/beam.png" alt="icon">
                 </div>
                 <div class="section2-single__title">
                     Live Support
@@ -149,10 +149,10 @@
             </div>
             <div class="section2-single">
                 <div class="section2-single__img">
-                    <img src="./images/section3icon2.png" alt="">
+                    <img src="./images/section3icon2.png" alt="icon">
                 </div>
                 <div class="section2-single__beam">
-                    <img src="./images/beam.png" alt="">
+                    <img src="./images/beam.png" alt="beam">
                 </div>
                 <div class="section2-single__title">
                     Cloud Technology
@@ -163,10 +163,10 @@
             </div>
             <div class="section2-single">
                 <div class="section2-single__img">
-                    <img src="./images/section3icon3.png" alt="">
+                    <img src="./images/section3icon3.png" alt="icon">
                 </div>
                 <div class="section2-single__beam">
-                    <img src="./images/beam.png" alt="">
+                    <img src="./images/beam.png" alt="beam">
                 </div>
                 <div class="section2-single__title">
                     Hi Tech Database
@@ -177,10 +177,10 @@
             </div>
             <div class="section2-single">
                 <div class="section2-single__img">
-                    <img src="./images/section3icon4.png" alt="">
+                    <img src="./images/section3icon4.png" alt="icon">
                 </div>
                 <div class="section2-single__beam">
-                    <img src="./images/beam.png" alt="">
+                    <img src="./images/beam.png" alt="beam">
                 </div>
                 <div class="section2-single__title">
                     Live Monitoring
@@ -192,7 +192,7 @@
         </div>
     </section>
 
-    <section class="section3">
+    <section class="section3" id="clients">
         <div class="section3-client">
             <div class="section3-client__description">
                 <span>Our Clients</span>
@@ -200,10 +200,10 @@
                     sollicitudin, lorem quis bibendum.
             </div>
             <div class="section3-client__logos">
-                <img src="images/company1.png" alt="">
-                <img src="images/company2.png" alt="">
-                <img src="images/company3.png" alt="">
-                <img src="images/company4.png" alt="">
+                <img src="images/company1.png" alt="companyLogo1">
+                <img src="images/company2.png" alt="companyLogo2">
+                <img src="images/company3.png" alt="companyLogo3">
+                <img src="images/company4.png" alt="companyLogo4">
             </div>
         </div>
         <div class="section3-opinions">
@@ -218,7 +218,7 @@
                 <div class="section3-opinions--single-bottom">
 
                     <span>- Anna</span>
-                    <img src="images/anna.png" alt="">
+                    <img src="images/anna.png" alt="personPicture">
                 </div>
             </div>
             <div class="section3-opinions--single">
@@ -232,7 +232,7 @@
                 <div class="section3-opinions--single-bottom">
 
                     <span>- Anna</span>
-                    <img src="images/anna.png" alt="">
+                    <img src="images/anna.png" alt="personPicture">
                 </div>
             </div>
             <div class="section3-opinions--single">
@@ -246,13 +246,13 @@
                 <div class="section3-opinions--single-bottom">
 
                     <span>- Anna</span>
-                    <img src="images/anna.png" alt="">
+                    <img src="images/anna.png" alt="personPicture">
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="section4">
+    <section class="section4" id="pricing">
         <div class="section4-text">
             <div class="section4-text__title">Do you want to view Plans & Pricing ?</div>
             <div class="section4-text__description">Follow the button.</div>
@@ -268,24 +268,47 @@
         <div class="section5-navigation">
             <span>Navigation</span>
             <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Domain</li>
-                <li>Hosting</li>
-                <li>Contact</li>
+                <li>
+                    <a href="#home">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#services">
+                        Services
+                    </a>
+                </li>
+                <li>
+                    <a href="#features">
+                        Features
+                    </a>
+                </li>
+                <li>
+                    <a href="#clients">
+                        Clients
+                    </a>
+                </li>
+                <li>
+                    <a href="#pricing">
+                        Pricing
+                    </a>
+                </li>
             </ul>
             <div class="section5-navigation__social">
-                <img src="images/social-icon.png" alt="">
+                <img src="images/social-icon.png" alt="socialIcons">
             </div>
-            <p>Back to Top</p>
+            <p>
+                <a href="#nav">
+                    Back to Top
+                </a>
+            </p>
         </div>
         <div class="section5-footer">
-            <div>
-                <img src="images/icon.png" alt="">
-            </div>
+
             <span>Copyright 2014 Maguwohost by Damian Kręcisz</span>
         </div>
     </section>
+
     <script src="scripts/main.js"></script>
 </body>
 
