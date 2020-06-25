@@ -1,7 +1,7 @@
 
 # # MaguwoHost 
 
-Simple website made from psd project
+Simple website made from psd project created in HTML and SCSS
 
  Live: https://damiankrecisz.github.io/HTML-and-CSS-3/
  
